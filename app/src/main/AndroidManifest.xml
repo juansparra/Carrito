@@ -12,7 +12,16 @@
         android:theme="@style/Theme.Carrito"
         tools:targetApi="31">
         <activity
-            android:name=".CarritoActivity"
+            android:name=".Belleza.Belleza"
+            android:exported="false" />
+        <activity
+            android:name=".Farmacia.Farmacia"
+            android:exported="false" />
+        <activity
+            android:name=".Farmacia.CarroCompraFarmacia"
+            android:exported="false" />
+        <activity
+            android:name=".Belleza.CarroCompraBelleza"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
